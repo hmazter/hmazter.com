@@ -12,5 +12,7 @@
                 </a>
             </li>
         </ul>
+
+        <p>&copy; Copyright Kristoffer 2009 - 2018</p>
     </div>
 </footer>
