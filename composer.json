@@ -1,0 +1,15 @@
+{
+  "name": "hmazter/hmazter.com",
+  "description": "hmazter.com static site using Jigsaw",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristoffer Högberg",
+      "email": "krihog@gmail.com"
+    }
+  ],
+  "require": {
+    "tightenco/jigsaw": "^1.2"
+  }
+}

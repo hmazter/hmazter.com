@@ -1,0 +1,9 @@
+/build_local/
+/node_modules/
+/vendor/
+/_tmp
+
+/.idea
+
+# Wordpress export
+hmazter.wordpress.*.xml
