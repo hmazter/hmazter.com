@@ -44,8 +44,7 @@ files](https://gist.github.com/hmazter/982c01d056fa7cd51c1c)
 ### Automatic (did not work for me)
 
 1.  Run the automatic script  
-   `sudo -H ./letsencrypt-auto --apache`{.EnlighterJSRAW
-    data-enlighter-language="null"}
+   `sudo -H ./letsencrypt-auto --apache`
 2.  Follow the onscreen guide to enter email, agree to terms of
     service and select domains
 3.  Done!
@@ -53,23 +52,20 @@ files](https://gist.github.com/hmazter/982c01d056fa7cd51c1c)
 ### Manual steps (worked for me)
 
 1.  Stop your apache server, to free up port 80  
-   `sudo service apache2 stop`{.EnlighterJSRAW
-    data-enlighter-language="shell"}
+   `sudo service apache2 stop`
 2.  Run letsencrypt script which starts a standalone server and
     authorizes cert, set all domains that is going to be secured with
     this cert.  
-   `sudo -H ./letsencrypt-auto certonly --standalone -d hmazter.com -d www.hmazter.com`{.EnlighterJSRAW
-    data-enlighter-language="null"}
+   `sudo -H ./letsencrypt-auto certonly --standalone -d hmazter.com -d www.hmazter.com`
 3.  First time you are prompted to enter your email and agree to the
     terms of service
 4.  Edit apache virtual host config to include the cert created in
     previous step, the path to the files was outputted after successful
     creation. Mine was
-    to `/etc/letsencrypt/live/hmazter.com/`{.EnlighterJSRAW
-    data-enlighter-language="null"}  
+    to `/etc/letsencrypt/live/hmazter.com/`
    Add this to your SSL virtual host config file (running on port 443):
 
-    ``` {.EnlighterJSRAW data-enlighter-language="null"}
+    ```
     SSLEngine on
     SSLCertificateFile /path/to/file/fullchain.pem
     SSLCertificateKeyFile /path/to/file/privkey.pem
@@ -77,8 +73,7 @@ files](https://gist.github.com/hmazter/982c01d056fa7cd51c1c)
 
 5.  Make sure that apache is listening to port 443
 6.  Start apache  
-   `sudo service apache2 start`{.EnlighterJSRAW
-    data-enlighter-language="null"}
+   `sudo service apache2 start`
 7.  Done!
 
 Redirecting traffic from http to https
