@@ -1,0 +1,15 @@
+.page {
+  h1 {
+    @extend .title;
+  }
+
+  h2 {
+    @extend .is-size-4;
+    margin-top: 20px;
+  }
+
+  h3 {
+    @extend .is-size-5;
+    margin-top: 20px;
+  }
+}

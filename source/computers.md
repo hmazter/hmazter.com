@@ -36,7 +36,7 @@ Corsair Hydro Series™ H60 High Performance Liquid CPU Cooler
 Western Digital Caviar Green 2TB SATA/600 64MB  
 Windows 10 Pro 64bit
 
-#### Previous parts
+### Previous parts
 
 Asus GeForce GTX 570 DIRECTCU II 1280MB PCI-E
 
