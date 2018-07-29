@@ -9,7 +9,17 @@
     <title>{{ $page->title ? $page->title . ' | hmazter.com' : 'hmazter.com' }}</title>
 </head>
 <body>
-<a href="/"><h1 class="site-header">Hmazter.com</h1></a>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <a href="/"><h1 class="title">Hmazter.com</h1></a>
+            <h2 class="subtitle">Web and application development</h2>
+        </div>
+    </div>
+</section>
+
+@include('_partials.navigation')
 
 @yield('body')
 
