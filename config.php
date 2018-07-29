@@ -3,5 +3,10 @@
 return [
     'baseUrl' => '',
     'production' => false,
-    'collections' => [],
+    'collections' => [
+        'posts' => [
+            'path' => '{date|Y/m}/{slug}',
+            'sort' => '-date'
+        ],
+    ],
 ];

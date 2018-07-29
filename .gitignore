@@ -2,6 +2,7 @@
 /node_modules/
 /vendor/
 /_tmp
+/source/assets
 
 /.idea
 
