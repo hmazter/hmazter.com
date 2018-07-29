@@ -1,0 +1,6 @@
+.portfolio {
+  h1 {
+    @extend .title;
+    @extend .is-3;
+  }
+}

@@ -1,9 +1,13 @@
 @extends('_layouts.master')
 
 @section('body')
-    <h1>{{ $page->title }}</h1>
+    <section class="section post">
+        <div class="container">
+            <h1>{{ $page->title }}</h1>
 
-    @yield('content')
+            @yield('content')
 
-    <p>Posted by {{ $page->author }} at {{ $page->date }}</p>
+            <p class="author">This article was posted by {{ $page->author }} at {{ $page->date }}</p>
+        </div>
+    </section>
 @endsection

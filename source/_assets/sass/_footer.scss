@@ -1,0 +1,15 @@
+footer {
+  ul.social-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul.social-links > li {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  ul.social-links > li > a {
+    color: inherit;
+  }
+}
