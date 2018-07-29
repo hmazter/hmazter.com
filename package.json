@@ -6,7 +6,8 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "dev": "yarn run local",
         "watch": "yarn run local -- --watch",
-        "build": "yarn dev && ./vendor/bin/jigsaw build"
+        "build": "yarn dev && ./vendor/bin/jigsaw build",
+        "build-prod": "yarn production && ./vendor/bin/jigsaw build production"
     },
     "devDependencies": {
         "browser-sync": "^2.23.6",
