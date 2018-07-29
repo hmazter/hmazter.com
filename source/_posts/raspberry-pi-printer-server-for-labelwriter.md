@@ -96,35 +96,23 @@ Navigate to http://localhost:631/admin with links2
 pi@raspberrypi ~ $ links2 http://localhost:631/admin
 ```
 
-[![cups\_amin](https://www.hmazter.com/wp-content/uploads/2013/05/cups_amin.png){.alignnone
-.size-full .wp-image-191 width="264"
-height="98"}](https://www.hmazter.com/wp-content/uploads/2013/05/cups_amin.png)  
-Select \"Add printer\".
+![cups admin](/media/2013/05/cups_amin.png)  
+Select "Add printer".
 
-[![cups\_login](https://www.hmazter.com/wp-content/uploads/2013/05/cups_login.png){.alignnone
-.size-full .wp-image-193 width="313"
-height="283"}](https://www.hmazter.com/wp-content/uploads/2013/05/cups_login.png)  
+![cups login](/media/2013/05/cups_login.png)   
 Log in with pi user. Default user *pi* and password *raspberry*.
 
-[![cups\_local\_printers](https://www.hmazter.com/wp-content/uploads/2013/05/cups_local_printers.png){.alignnone
-.size-full .wp-image-192 width="634"
-height="233"}](https://www.hmazter.com/wp-content/uploads/2013/05/cups_local_printers.png)  
-In the list of local printers, the \"Dymo LabelWriter 450\" should
-appear, mark and continue.
+![cups local printers](/media/2013/05/cups_local_printers.png)   
+In the list of local printers, the "Dymo LabelWriter 450" should appear, mark and continue.
 
-[![cups\_add\_printer](https://www.hmazter.com/wp-content/uploads/2013/05/cups_add_printer.png){.alignnone
-.size-full .wp-image-190 width="696"
-height="185"}](https://www.hmazter.com/wp-content/uploads/2013/05/cups_add_printer.png)[Give
-printer a name and description, and
-continue.]{style="line-height: 1.714285714; font-size: 1rem;"}
+![cups add printer](/media/2013/05/cups_add_printer.png)   
+Give printer a name and description, and continue.
 
 Select the Dymo LabelWriter 450 drivers if found. otherwise you need to
 locate the file that *make install* created earlier.
 
-[![cups\_manage](https://www.hmazter.com/wp-content/uploads/2013/05/cups_manage.png){.alignnone
-.size-full .wp-image-194 width="922"
-height="121"}](https://www.hmazter.com/wp-content/uploads/2013/05/cups_manage.png)That
-should be everything for the printer. To verify, go the admin interface
+![cups manage](/media/2013/05/cups_manage.png)   
+That should be everything for the printer. To verify, go the admin interface
 and click Manage Printers ant the LabelWriter should appear in the list.
 
 The Code

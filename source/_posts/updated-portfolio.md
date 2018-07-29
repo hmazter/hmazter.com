@@ -10,5 +10,4 @@ tags: page update
 slug: updated-portfolio
 ---
 
-Update portfolio with page about 
-[Hillsong Kids checkin](http://www.hmazter.com/portfolio/hillsong-kids-checkin)
+Update portfolio with page about [Hillsong Kids checkin](/portfolio/hillsong-kids-checkin)

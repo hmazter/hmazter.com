@@ -10,10 +10,12 @@ tags: Android, Code Examples, Geocoding
 slug: testing-geocoding-on-android
 ---
 
-[![](https://www.hmazter.com/wp-content/uploads/2010/12/TestGeocoding-200x300.png "TestGeocoding"){.size-medium .wp-image-93 .alignright width="200" height="300"}](https://www.hmazter.com/wp-content/uploads/2010/12/TestGeocoding.png)Intro
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![TestGeocoding](/media/2010/12/TestGeocoding-200x300.png){.alignright}
 
-Recently i developed an application for Android that used reverse
+Intro
+-----
+
+Recently I developed an application for Android that used reverse
 geocoding, ie. get a human readable address from a latitude/longitude
 position. To test what position i got for different location and to test
 what addresses that translated to i developed this little neat
@@ -25,9 +27,9 @@ Application info and download
 Application to test Positioning and Reverse geocoding (Address from
 lat/lng). Optionally Save results to sdcard.
 
-[Download application (.apk)](http://www.hmazter.com/apk/TestGeocoding.apk)
+~~Download application (.apk)~~
 
-[Download source-code (.rar)](http://www.hmazter.com/apk/TestGeocoding.rar)
+~~Download source-code (.rar)~~
 
 Explanation of code
 -------------------
