@@ -27,5 +27,8 @@
 
 @include('_partials.footer')
 
+
+<script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+
 </body>
 </html>

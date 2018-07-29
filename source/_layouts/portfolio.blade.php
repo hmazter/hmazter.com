@@ -3,7 +3,7 @@
 @section('body')
 
     <section class="section portfolio">
-        <div class="container">
+        <div class="container content">
             <h1>{{ $page->title }}
                 <small>{{ $page->date }}</small>
             </h1>

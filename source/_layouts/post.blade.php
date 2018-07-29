@@ -2,7 +2,7 @@
 
 @section('body')
     <section class="section post">
-        <div class="container">
+        <div class="container content">
             <h1>{{ $page->title }}</h1>
 
             @yield('content')
