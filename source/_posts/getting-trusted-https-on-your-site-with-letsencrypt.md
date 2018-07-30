@@ -10,7 +10,7 @@ tags: apache, https, ssl
 slug: getting-trusted-https-on-your-site-with-letsencrypt
 ---
 
-**NOTICE** The new script for Lets encrypt has been release with
+> **NOTICE** The new script for Lets encrypt has been release which
 simplifies install and getting a cert, check
 out [certbot.eff.org](https://certbot.eff.org)
 
