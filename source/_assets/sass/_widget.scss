@@ -1,0 +1,21 @@
+.widget {
+  .title {
+    @extend .title;
+    @extend .is-size-6;
+    letter-spacing: 0.1818em;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+  }
+
+  li {
+    border-bottom: 1px solid $grey-light;
+    padding: 0.5em 0;
+  }
+  li:first-child {
+    border-top: 1px solid $grey-light;
+  }
+
+  li a {
+    color: inherit;
+  }
+}

@@ -23,7 +23,21 @@
 
 @include('_partials.navigation')
 
-@yield('body')
+<section class="section">
+    <div class="container">
+        <div class="columns">
+
+            <div class="column is-three-quarters">
+                @yield('body')
+            </div>
+
+            <div class="column is-one-quarter">
+                @include('_partials.recent-posts')
+            </div>
+
+        </div>
+    </div>
+</section>
 
 @include('_partials.footer')
 

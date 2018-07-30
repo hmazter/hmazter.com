@@ -1,14 +1,11 @@
 @extends('_layouts.master')
 
 @section('body')
+    <div class="content portfolio">
+        <h1>{{ $page->title }}
+            <small>{{ $page->date }}</small>
+        </h1>
 
-    <section class="section portfolio">
-        <div class="container content">
-            <h1>{{ $page->title }}
-                <small>{{ $page->date }}</small>
-            </h1>
-
-            @yield('content')
-        </div>
-    </section>
+        @yield('content')
+    </div>
 @endsection
