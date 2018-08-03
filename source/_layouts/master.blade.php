@@ -42,7 +42,7 @@
 @include('_partials.footer')
 
 
-<script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+<script src="{{ mix('js/main.js', 'assets/build') }}" async></script>
 
 </body>
 </html>
