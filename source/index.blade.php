@@ -6,7 +6,7 @@ pagination:
 @extends('_layouts.master')
 
 @section('body')
-    <section class="section">
+    <div>
         @foreach ($pagination->items as $post)
             <div class="content post">
                 <h1>{{ $post->title }}</h1>
@@ -17,7 +17,7 @@ pagination:
             </div>
             <hr>
         @endforeach
-    </section>
+    </div>
 
     <nav class="pagination is-centered" role="navigation" aria-label="pagination">
         @if ($previous = $pagination->previous)
