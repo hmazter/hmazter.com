@@ -9,7 +9,7 @@ pagination:
     <div>
         @foreach ($pagination->items as $post)
             <div class="content post">
-                <h1>{{ $post->title }}</h1>
+                <a href="{{ $post->getUrl() }}"><h1>{{ $post->title }}</h1></a>
 
                 <div>{!! $post->getContent() !!}</div>
 
