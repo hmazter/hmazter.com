@@ -15,7 +15,7 @@
 <section class="hero">
     <div class="hero-body">
         <div class="container">
-            <a href="/"><h1 class="title">Hmazter.com</h1></a>
+            <a href="/"><h1 class="title is-uppercase has-text-weight-bold">Hmazter.com</h1></a>
             <h2 class="subtitle">Web and application development</h2>
         </div>
     </div>
