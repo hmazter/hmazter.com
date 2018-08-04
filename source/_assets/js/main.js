@@ -1,1 +1,3 @@
-import './prism'
+import './vendor/prism'
+
+import './navbar-burger'

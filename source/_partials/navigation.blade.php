@@ -2,14 +2,14 @@
     <div class="container">
 
         <div class="navbar-brand">
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
 
-        <div class="navbar-menu">
+        <div class="navbar-menu" id="nav-menu">
             <div class="navbar-start">
 
                 <a href="/" class="navbar-item">Posts</a>
