@@ -1,6 +1,10 @@
 .post {
-  p.author {
-    margin-top: 20px;
+  .publish-date {
     color: $grey;
+    font-weight: 800;
+    font-size: $size-7;
+  }
+  .title > a {
+    color: inherit;
   }
 }

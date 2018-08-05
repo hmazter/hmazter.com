@@ -8,12 +8,16 @@ pagination:
 @section('body')
     <div>
         @foreach ($pagination->items as $post)
-            <div class="content post">
-                <a href="{{ $post->getUrl() }}"><h1>{{ $post->title }}</h1></a>
+            <div class="post">
+                <p class="publish-date">{{ date('Y-m-d', $post->date) }}</p>
 
-                <div>{!! $post->getContent() !!}</div>
+                <h1 class="title">
+                    <a href="{{ $post->getUrl() }}">
+                        {{ $post->title }}
+                    </a>
+                </h1>
 
-                <p class="author">This article was posted by {{ $post->author }} at {{ $post->date }}</p>
+                <div class="content">{!! $post->getContent() !!}</div>
             </div>
             <hr>
         @endforeach

@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 
 title: Updated portfolio
-date: 2015-03-31 10:21
+date: 2015-03-31
 author: hmazter
 category: hmazter.com
 tags: page update

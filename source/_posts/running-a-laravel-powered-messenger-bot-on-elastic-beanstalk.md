@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 
 title: Running a Laravel powered Messenger bot on Elastic Beanstalk
-date: 2016-12-22 23:18
+date: 2016-12-22
 author: hmazter
 category: Developing
 tags: aws, facebook, laravel5, php, ssl

@@ -1,11 +1,20 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div class="content post">
-        <h1>{{ $page->title }}</h1>
+    <div class="post">
+        <p class="publish-date">{{ date('Y-m-d', $page->date) }}</p>
 
+        <h1 class="title">{{ $page->title }}</h1>
+
+        <div class="content">
         @yield('content')
+        </div>
 
-        <p class="author">This article was posted by {{ $page->author }} at {{ $page->date }}</p>
+        @if ($page->getNext())
+            <p>
+                Read something more:
+                <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
+            </p>
+        @endif
     </div>
 @endsection

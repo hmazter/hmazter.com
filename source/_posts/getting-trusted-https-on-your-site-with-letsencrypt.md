@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 
 title: Getting trusted HTTPS on your site with letsencrypt
-date: 2015-12-15 10:02
+date: 2015-12-15
 author: hmazter
 category: Web servers
 tags: apache, https, ssl

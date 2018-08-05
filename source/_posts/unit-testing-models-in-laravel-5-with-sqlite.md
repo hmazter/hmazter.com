@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 
 title: Unit testing models in Laravel 5 with SQLite in Memory
-date: 2015-04-02 17:14
+date: 2015-04-02
 author: hmazter
 category: Developing
 tags: laravel5, php, unit test

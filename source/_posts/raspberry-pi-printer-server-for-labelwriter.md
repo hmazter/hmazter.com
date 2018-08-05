@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 
 title: Raspberry Pi Printer server for LabelWriter
-date: 2013-05-20 09:16
+date: 2013-05-20
 author: hmazter
 category: Developing
 tags: c++, labelwriter, printer, raspberry pi

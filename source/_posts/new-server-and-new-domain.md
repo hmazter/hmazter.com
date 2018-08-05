@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 
 title: New server and new domain
-date: 2010-09-02 02:10
+date: 2010-09-02
 author: hmazter
 category: hmazter.com
 slug: new-server-and-new-domain

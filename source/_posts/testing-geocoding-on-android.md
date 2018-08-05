@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 
 title: Testing Geocoding on Android
-date: 2010-12-01 23:38
+date: 2010-12-01
 author: hmazter
 category: Developing
 tags: Android, Code Examples, Geocoding
