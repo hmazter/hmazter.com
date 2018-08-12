@@ -4,7 +4,7 @@ section: content
 
 title: Testing Geocoding on Android
 date: 2010-12-01
-author: hmazter
+author: Kristoffer Högberg
 category: Developing
 tags: Android, Code Examples, Geocoding
 slug: testing-geocoding-on-android

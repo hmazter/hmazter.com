@@ -4,7 +4,7 @@ section: content
 
 title: Move from wordpress to static site with Jigsaw
 date: 2018-08-11
-author: hmazter
+author: Kristoffer Högberg
 slug: move-from-wordpress-to-static-site-with-jigsaw
 ---
 

@@ -4,7 +4,7 @@ section: content
 
 title: Unit testing models in Laravel 5 with SQLite in Memory
 date: 2015-04-02
-author: hmazter
+author: Kristoffer Högberg
 category: Developing
 tags: laravel5, php, unit test
 slug: unit-testing-models-in-laravel-5-with-sqlite

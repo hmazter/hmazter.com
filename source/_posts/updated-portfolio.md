@@ -4,7 +4,7 @@ section: content
 
 title: Updated portfolio
 date: 2015-03-31
-author: hmazter
+author: Kristoffer Högberg
 category: hmazter.com
 tags: page update
 slug: updated-portfolio

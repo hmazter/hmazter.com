@@ -4,7 +4,7 @@ section: content
 
 title: Site launched
 date: 2009-12-01
-author: hmazter
+author: Kristoffer Högberg
 category: hmazter.com
 slug: site-launched
 ---

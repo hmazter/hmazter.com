@@ -4,7 +4,7 @@ section: content
 
 title: Running a Laravel powered Messenger bot on Elastic Beanstalk
 date: 2016-12-22
-author: hmazter
+author: Kristoffer Högberg
 category: Developing
 tags: aws, facebook, laravel5, php, ssl
 slug: running-a-laravel-powered-messenger-bot-on-elastic-beanstalk

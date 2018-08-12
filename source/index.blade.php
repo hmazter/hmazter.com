@@ -5,6 +5,17 @@ pagination:
 ---
 @extends('_layouts.master')
 
+@section('meta')
+    <meta name="description" content="Web and application development">
+
+    <meta property="og:title" content="hmazter.com" />
+    <meta property="og:url" content="{{ $page->baseUrl }}" />
+    <meta property="og:type" content="website" />
+
+    <meta itemprop="name" content="hmazter.com">
+    <meta itemprop="description" content="Web and application development">
+@endsection
+
 @section('body')
     <div>
         @foreach ($pagination->items as $post)

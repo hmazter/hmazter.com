@@ -4,7 +4,7 @@ section: content
 
 title: Raspberry Pi Printer server for LabelWriter
 date: 2013-05-20
-author: hmazter
+author: Kristoffer Högberg
 category: Developing
 tags: c++, labelwriter, printer, raspberry pi
 slug: raspberry-pi-printer-server-for-labelwriter
