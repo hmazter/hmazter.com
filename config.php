@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost:3000',
     'production' => false,
     'collections' => [
         'posts' => [
