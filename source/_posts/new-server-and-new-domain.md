@@ -4,7 +4,7 @@ section: content
 
 title: New server and new domain
 date: 2010-09-02
-author: hmazter
+author: Kristoffer Högberg
 category: hmazter.com
 slug: new-server-and-new-domain
 ---

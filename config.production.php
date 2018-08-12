@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://www.hmazter.com',
+    'baseUrl' => getenv('DEPLOY_PRIME_URL') ?? 'https://www.hmazter.com',
     'production' => true,
 ];

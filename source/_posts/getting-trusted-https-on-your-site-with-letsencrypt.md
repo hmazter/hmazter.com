@@ -4,7 +4,7 @@ section: content
 
 title: Getting trusted HTTPS on your site with letsencrypt
 date: 2015-12-15
-author: hmazter
+author: Kristoffer Högberg
 category: Web servers
 tags: apache, https, ssl
 slug: getting-trusted-https-on-your-site-with-letsencrypt
