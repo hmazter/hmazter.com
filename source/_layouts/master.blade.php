@@ -8,7 +8,7 @@
 
     @yield('meta')
 
-    <title>{{ $page->title ? $page->title . ' | hmazter.com' : 'hmazter.com' }}</title>
+    <title>{{ $page->title ? "{$page->title} | {$page->site_title}" : $page->site_title }}</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -22,8 +22,8 @@
 <section class="hero">
     <div class="hero-body">
         <div class="container">
-            <a href="/"><h1 class="title is-uppercase has-text-weight-bold">Hmazter.com</h1></a>
-            <h2 class="subtitle">Web and application development</h2>
+            <a href="/"><h1 class="title is-uppercase has-text-weight-bold">{{ $page->site_title }}</h1></a>
+            <h2 class="subtitle">{{ $page->site_description }}</h2>
         </div>
     </div>
 </section>
