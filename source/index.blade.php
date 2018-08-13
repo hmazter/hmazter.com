@@ -17,6 +17,10 @@ pagination:
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="{{ $page->site_title }}">
     <meta itemprop="description" content="{{ $page->site_description }}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@Hmazter">
 @endsection
 
 @section('body')

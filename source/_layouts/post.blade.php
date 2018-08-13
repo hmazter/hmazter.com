@@ -17,7 +17,7 @@
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@hmazter">
+    <meta name="twitter:creator" content="@Hmazter">
 @endsection
 
 @section('body')
