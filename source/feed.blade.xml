@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+
+    <channel>
+        <title>Hmazter</title>
+        <atom:link href="{{ $page->baseUrl }}/feed.xml" rel="self" type="application/rss+xml"/>
+        <link>{{ $page->baseUrl }}</link>
+        <description>Web and application development</description>
+        <lastBuildDate>{{ date(DATE_RSS) }}</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>Jigsaw</generator>
+
+        @foreach($posts as $post)
+        <item>
+            <title>{{ $post->title }}</title>
+            <link>{{ $post->getUrl() }}</link>
+            <guid isPermaLink="true">{{ $post->getUrl() }}</guid>
+            <pubDate>{{ date(DATE_RSS, $post->date) }}</pubDate>
+            <dc:creator><![CDATA[{{ $post->author }}]]></dc:creator>
+            <description><![CDATA[{{ $post->excerpt(500) }}]]></description>
+        </item>
+        @endforeach
+    </channel>
+</rss>

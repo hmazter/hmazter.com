@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+
+    <link rel="alternate" type="application/rss+xml" title="hmazter.com Feed" href="{{ $page->baseUrl }}/feed.xml" />
 </head>
 <body>
 
