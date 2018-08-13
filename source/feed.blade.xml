@@ -7,7 +7,7 @@
 
     <channel>
         <title>Hmazter</title>
-        <atom:link href="{{ $page->baseUrl }}/feed.rss" rel="self" type="application/rss+xml"/>
+        <atom:link href="{{ $page->baseUrl }}/feed.xml" rel="self" type="application/rss+xml"/>
         <link>{{ $page->baseUrl }}</link>
         <description>Web and application development</description>
         <lastBuildDate>{{ date(DATE_RSS) }}</lastBuildDate>
@@ -23,7 +23,7 @@
             <guid isPermaLink="true">{{ $post->getUrl() }}</guid>
             <pubDate>{{ date(DATE_RSS, $post->date) }}</pubDate>
             <dc:creator><![CDATA[{{ $post->author }}]]></dc:creator>
-            <description><![CDATA[{!! $post->getContent() !!}]]></description>
+            <description><![CDATA[{{ $post->excerpt(500) }}]]></description>
         </item>
         @endforeach
     </channel>
