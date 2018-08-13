@@ -2,6 +2,10 @@
 
 return [
     'baseUrl' => 'http://localhost:3000',
+
+    'site_title' => 'hmazter.com',
+    'site_description' => 'Web and application development',
+
     'production' => false,
     'collections' => [
         'posts' => [
