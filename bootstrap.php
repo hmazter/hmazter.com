@@ -6,3 +6,4 @@ use TightenCo\Jigsaw\Jigsaw;
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
 
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
+$events->afterBuild(App\Listeners\CopyFaviconsToRoot::class);
