@@ -10,8 +10,6 @@
 
     <title>{{ $page->title ? "{$page->title} | {$page->site_title}" : $page->site_title }}</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ mix('css/main.css') }}">
 
     <link rel="alternate" type="application/rss+xml" title="hmazter.com Feed" href="{{ $page->baseUrl }}/feed.xml" />
@@ -54,7 +52,6 @@
 </section>
 
 @include('_partials.footer')
-
 
 <script src="{{ mix('js/main.js') }}" async></script>
 
