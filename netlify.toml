@@ -1,3 +1,7 @@
+[build]
+  publish = "build_production"
+  command = "npm run production"
+
 [build.environment]
   PHP_VERSION = "7.2"
 
