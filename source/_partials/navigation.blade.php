@@ -12,7 +12,9 @@
         <div class="navbar-menu" id="nav-menu">
             <div class="navbar-start">
 
-                <a href="/" class="navbar-item">Posts</a>
+                <a href="/" class="navbar-item">New posts</a>
+
+                <a href="/all-posts" class="navbar-item">All posts</a>
 
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
