@@ -6,7 +6,7 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "dev": "npm run local",
         "watch": "npm run local -- --watch",
-        "build": "npm dev && ./vendor/bin/jigsaw build"
+        "build": "npm run dev && ./vendor/bin/jigsaw build"
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.7.2",
@@ -15,6 +15,7 @@
         "bulma": "^0.7.4",
         "cross-env": "^3.2.3",
         "extra-watch-webpack-plugin": "^1.0.3",
+        "github-syntax-light": "^0.5.0",
         "hasbin": "^1.2.3",
         "laravel-mix": "^4.0.14",
         "node-cmd": "^3.0.0",

@@ -96,7 +96,7 @@ On my previous wordpress blog the index page was a pagination of all the posts a
 That was pretty straight forward, Jigsaw includes [pagination functionality](https://jigsaw.tighten.co/docs/collections-pagination/).
 Just specify which collection and pagination count on a page and the loop over the result.
 
-```php
+```blade
 ---
 pagination:
     collection: posts
