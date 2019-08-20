@@ -20,16 +20,16 @@ and history.
 
 The system is currently build on [Laravel 5](https://laravel.com/)
 with [Bootstrap 3 less](https://getbootstrap.com/)
-and [React](https://facebook.github.io/react/),
+and [Vue.js](https://vuejs.org/),
 running on nginx, php7-fpm with mysql.
 Using features of Laravel such as mail sending with
 [Mailgun](https://www.mailgun.com/),
 local development mail trapping with [mailtrap.io](https://mailtrap.io/),
 queue handling with AWS SQS/Redis
 and backups to AWS S3.
-Exception logging and monitoring with
+Exception logging with [Sentry](https://sentry.io/welcome/) and monitoring with
 [DataDog](https://www.datadoghq.com/).
 Application and access logging with syslog and
-[Papertrail](https://papertrailapp.com/).
+[AWS CloudWatch](https://aws.amazon.com/cloudwatch/).
 
-![Hillsong Kids Checkin](/media/2015/03/Selection_663.png)
+![Hillsong Kids Checkin](/media/2019/kids-checkin.png)
