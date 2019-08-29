@@ -9,19 +9,19 @@
         "build": "npm dev && ./vendor/bin/jigsaw build"
     },
     "devDependencies": {
-        "@fortawesome/fontawesome-free": "^5.7.2",
+        "@fortawesome/fontawesome-free": "^5.10.2",
         "browser-sync": "^2.26.7",
         "browser-sync-webpack-plugin": "^2.0.1",
-        "bulma": "^0.7.4",
-        "cross-env": "^3.2.3",
+        "bulma": "^0.7.5",
+        "cross-env": "^5.2.0",
         "extra-watch-webpack-plugin": "^1.0.3",
         "hasbin": "^1.2.3",
-        "laravel-mix": "^4.0.14",
+        "laravel-mix": "^4.1.2",
         "node-cmd": "^3.0.0",
-        "resolve-url-loader": "^2.3.2",
-        "sass": "^1.17.2",
-        "sass-loader": "^7.1.0",
-        "vue-template-compiler": "^2.6.8",
-        "yargs": "^4.6.0"
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.22.10",
+        "sass-loader": "^7.3.1",
+        "vue-template-compiler": "^2.6.10",
+        "yargs": "^14.0.0"
     }
 }
