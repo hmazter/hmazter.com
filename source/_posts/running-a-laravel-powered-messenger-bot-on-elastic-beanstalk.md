@@ -53,7 +53,7 @@ It took some tweaking and testing with the configuration files for EBS
 to get the document root to for the web server to point to: /public.
 Ended up with this file (phpsettings.config) in the .ebextensions:
 
-```
+```yaml
 option_settings:
   aws:elasticbeanstalk:container:php:phpini:
     document_root: /public
