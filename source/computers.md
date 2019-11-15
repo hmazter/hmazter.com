@@ -6,19 +6,13 @@ section: content
 
 Here is an overview of my computers with their specs and some pictures =)
 
-Work laptop 1
+Work laptop
 -------------
 
-MacBook Pro 13", 2016  
-2 GHz Intel Core i5  
-16 GB 1867 MHz LPDDR3
-
-Work laptop 2
--------------
-
-Lenovo ThinkPad T440p  
-Intel® Core™ i7-4600M CPU @ 2.90GHz × 4  
-Ubuntu Gnome 15.04 64-bit
+MacBook Pro 13", 2017  
+3,1 GHz Intel Core i5  
+16 GB 2133 MHz LPDDR3  
+Intel Iris Plus Graphics 650 1536 MB
 
 Kaley
 -----
