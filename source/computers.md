@@ -6,8 +6,17 @@ section: content
 
 Here is an overview of my computers with their specs and some pictures =)
 
+Home Server
+-------------
+**Linux home server**, acquired 2018-10-18
+
+Intel NUC Coffee Lake I3-8109U  
+Samsung 970 Evo 250GB M.2  
+Corsair Vengeance 16GB 2400MHz DDR4
+
 Work laptop
 -------------
+Acquired 2018-09-01
 
 MacBook Pro 13", 2017  
 3,1 GHz Intel Core i5  
