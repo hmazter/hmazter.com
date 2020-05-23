@@ -10,6 +10,11 @@ tags: c++, labelwriter, printer, raspberry pi
 slug: raspberry-pi-printer-server-for-labelwriter
 ---
 
+> Update May 2020  
+> [@YanickHey](https://twitter.com/YanickHey) has notified me that the Dymo driver does not work we newer versions
+> of CUPS. However, there are workarounds, for example to use an unofficial driver, which fixes the issue here: 
+> https://github.com/matthiasbock/dymo-cups-drivers/commit/d780e709c208dcbf2db88577a6d12c00660202b6
+
 Introduction
 ------------
 
